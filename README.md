@@ -27,7 +27,7 @@ skate = require('skatejs')
 
 This library is used by [HabitLab](https://github.com/habitlab/habitlab-chrome/)
 
-See the `src/interventions` and src/components_skate directories
+See the `src/interventions` and `src/components_skate` directories
 
 ## Limitations
 
