@@ -1,6 +1,6 @@
 {
   "name": "enable-webcomponents-in-content-scripts",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Enables use of Web Components Custom Elements in Chrome content scripts.",
   "main": "index.js",
   "scripts": {
