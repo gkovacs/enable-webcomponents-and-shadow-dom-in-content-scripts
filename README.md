@@ -29,20 +29,21 @@ This library is used by [HabitLab](https://github.com/habitlab/habitlab-chrome/)
 
 See the `src/interventions` and `src/components_skate` directories
 
-## Limitations
+## Details
 
-Note that it will not work with Polymer as HTML imports are not supported in content scripts.
-
-## Source
-
-All this module does is
+This module check if Chrome is using the native implementation of `document.registerElement` (for v0 of the CustomElements API), or `window.customElements` (for v1 of the CustomElements API), and if yes, it substitutes them with a polyfill. You can do this manually via:
 
 ```
 document.registerElement = null
+require('webcomponentsjs-custom-element-v0')
+```
+
+```
+window.customElements = null
 require('webcomponentsjs-custom-element-v1')
 ```
 
-See [webcomponentsjs-custom-element-v1](https://github.com/gkovacs/webcomponentsjs-custom-element-v1) for details.
+See [webcomponentsjs-custom-element-v0](https://github.com/gkovacs/webcomponentsjs-custom-element-v0) and [webcomponentsjs-custom-element-v1](https://github.com/gkovacs/webcomponentsjs-custom-element-v1) for details.
 
 ## License
 
