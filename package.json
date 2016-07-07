@@ -1,6 +1,6 @@
 {
   "name": "enable-webcomponents-in-content-scripts",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "Enables use of Web Components Custom Elements in Chrome content scripts.",
   "main": "index.js",
   "scripts": {
@@ -17,7 +17,6 @@
   },
   "homepage": "https://github.com/gkovacs/enable-webcomponents-in-content-scripts#readme",
   "dependencies": {
-    "webcomponentsjs-custom-element-v0": "^1.0.0",
-    "webcomponentsjs-custom-element-v1": "^1.0.0"
+    "webcomponentsjs-custom-element-v0": "^1.0.0"
   }
 }
