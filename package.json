@@ -17,6 +17,6 @@
   },
   "homepage": "https://github.com/gkovacs/enable-webcomponents-in-content-scripts#readme",
   "dependencies": {
-    "webcomponentsjs-custom-element-v0": "^1.0.0"
+    "webcomponentsjs-custom-element-v0": "^1.0.1"
   }
 }
