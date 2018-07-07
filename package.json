@@ -1,7 +1,7 @@
 {
-  "name": "enable-webcomponents-in-content-scripts",
-  "version": "1.0.7",
-  "description": "Enables use of Web Components Custom Elements in Chrome content scripts.",
+  "name": "enable-webcomponents-and-shadow-dom-in-content-scripts",
+  "version": "1.0.8",
+  "description": "Enables use of Web Components Custom Elements and Shadow DOM in Chrome content scripts.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/gkovacs/enable-webcomponents-in-content-scripts#readme",
   "dependencies": {
-    "webcomponentsjs-custom-element-v0": "^1.0.1"
+    "webcomponentsjs-custom-element-v0": "^1.0.2",
+    "webcomponentsjs-shadow-dom-v0": "^1.0.2"
   }
 }
